@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motivate - Inspire Your Journey</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .hero {
-            background: linear-gradient(45deg,rgb(122, 18, 22),rgba(110, 101, 23, 0.48));
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-        }
-        .about, .blog, .gallery, .contact {
-            padding: 50px 20px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-    </style>
+    <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>
-<?php  include "header.php"; ?>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Motivate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <div class="hero">
@@ -81,7 +82,13 @@
         </div>
     </section>
 
-    <? include "footer.php"; ?>
+   
+<!-- Footer -->
+<footer>
+        <div class="container">
+            <p>&copy; 2025 Motivate | Created by Darius Banks</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
